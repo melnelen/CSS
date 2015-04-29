@@ -1,0 +1,52 @@
+body{
+	background-color: #989898;
+	font-family: 'Calibri';
+	font-size: 20px;
+}
+
+h1{
+	color: #F9F9C6;
+	font-size: 3em;
+	text-align: center;
+}
+
+article header h1{
+	font-size: 2em;
+}
+
+nav{
+	text-align: center;
+}
+
+nav ul li{
+	list-style-type: none;
+	color: #FFF;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+nav ul li a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li:last-child{
+	text-decoration: underline;
+}
+
+.current:link{
+	background-color: #C8C8C8;
+}
+section article footer{
+	text-align: left;
+	font-size: 0.75em;
+}
+
+section article footer p a{
+	text-decoration: none;
+	color: #000;
+}
+
+body footer{
+	text-align: center;
+}
