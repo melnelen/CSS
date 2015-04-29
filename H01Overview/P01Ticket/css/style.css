@@ -1,0 +1,46 @@
+table{
+	margin: 0px;
+	padding: 3px 80px 3px 0px;
+	background-color: #464646;
+	font-family: 'Arial';
+	font-size: 11px;
+	color: #949494;
+}
+
+table th{
+	font-weight: normal;
+	font-size: 1.5em;
+	text-align: left;
+}
+
+table td{
+	padding: 6px;
+}
+
+table tr td:first-child{
+	color: #FFF;
+	font-style: italic;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.normal{
+	color: #FEEF9F;
+	text-decoration: none;
+}
+
+.attention{
+	color: #EE6310;
+}
+
+.important{
+	color: #DD0006;
+}
+
+#online-status{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #64A764;
+	display: inline-block;
+}
