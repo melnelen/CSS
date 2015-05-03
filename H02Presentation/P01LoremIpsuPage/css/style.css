@@ -1,0 +1,14 @@
+div p{
+	color: #0094ff;
+	font-family: Consolas, monospace;
+	font-size: 16px;
+}
+
+div p:first-line{
+	font-weight: 600;
+}
+
+div p:first-letter{
+	font-family: "Edwardian Script ITC", "Alex Brush", cursive;
+	font-size: 3em;
+}

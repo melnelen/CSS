@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Windows Programmer Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="normalFont" id="calculatorWindow">
+		<div class="localBlock standardHeight">
+			<img src="images/calculatorIcon.png" alt="icon" width="20" height="20">
+		</div>
+		<div class="localBlock standardHeight" id="title">
+			Calculator
+		</div>
+		<div class="localBlock standardHeight" id="controlButtons">
+			<button class="standardHeight">_</button>
+			<button class="standardHeight" disabled="disbaled">&#8863;</button>
+			<button class="standardHeight">x</button>
+		</div>
+		<div class="standardBorder" id="calculatorBody">
+			<header>
+				<nav>
+					<ul>
+						<li class="localBlock">View</li>
+						<li class="localBlock">Edit</li>
+						<li class="localBlock">Help</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<section>
+					<input class="standardBorder numericFont" type="text" id="display" value="8854455" />
+				</section>
+				<section class="standardBorder binaryFont">
+					<table id="binary">
+						<tr>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+							<td>0000</td>
+						</tr>
+						<tr>
+							<td colspan="4">63</td>
+							<td colspan="3">47</td>
+							<td>32</td>
+						</tr>
+						<tr>
+							<td>0000</td>
+							<td>0000</td>
+							<td>1000</td>
+							<td>0111</td>
+							<td>0001</td>
+							<td>1011</td>
+							<td>1011</td>
+							<td>0111</td>
+						</tr>
+						<tr>
+							<td colspan="4">31</td>
+							<td colspan="3">15</td>
+							<td>0</td>
+						</tr>
+					</table>
+				</section>
+				</main>
+		</div>
+	</div>
+</body>
+</html>
