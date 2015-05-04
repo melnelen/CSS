@@ -8,16 +8,14 @@
 </head>
 <body>
 	<div class="normalFont" id="calculatorWindow">
-		<div class="localBlock standardHeight">
-			<img src="images/calculatorIcon.png" alt="icon" width="20" height="20">
-		</div>
-		<div class="localBlock standardHeight" id="title">
+			<img class="localBlock standardHeight" src="images/calculatorIcon.png" alt="icon" width="20" height="20">
+		<h1 class="localBlock standardHeight">
 			Calculator
-		</div>
+		</h1>
 		<div class="localBlock standardHeight" id="controlButtons">
-			<button class="standardHeight">_</button>
-			<button class="standardHeight" disabled="disbaled">&#8863;</button>
-			<button class="standardHeight">x</button>
+			<button class="standardHeight normalFont">_</button>
+			<button class="standardHeight normalFont">&curren;</button>
+			<button class="standardHeight normalFont">x</button>
 		</div>
 		<div class="standardBorder" id="calculatorBody">
 			<header>
@@ -30,9 +28,7 @@
 				</nav>
 			</header>
 			<main>
-				<section>
-					<input class="standardBorder numericFont" type="text" id="display" value="8854455" />
-				</section>
+					<input class="standardBorder numericFont" id="display" value="8854455" />
 				<section class="standardBorder binaryFont">
 					<table id="binary">
 						<tr>
@@ -65,6 +61,82 @@
 							<td colspan="3">15</td>
 							<td>0</td>
 						</tr>
+					</table>
+				</section>
+				<section id="fieldsets">
+						<fieldset class="standardBorder">
+							<label><input type="radio" name="base" /> Hex </label>
+							<label><input type="radio" name="base" checked="checked" /> Dec </label>
+							<label><input type="radio" name="base" /> Oct </label>
+							<label><input type="radio" name="base" /> Bin </label>
+						</fieldset>
+						<fieldset class="standardBorder">
+							<label><input type="radio" name="bitlength" checked="checkeds" /> Qword </label>
+							<label><input type="radio" name="bitlength" /> Dword </label>
+							<label><input type="radio" name="bitlength" /> Word </label>
+							<label><input type="radio" name="bitlength" /> Byte </label>
+						</fieldset>
+				</section>
+				<section>
+					<table id="buttonsTable">
+						<tr>
+		                    <td><button class="generalButton" disabled="disabled"></button></td>
+		                    <td><button class="generalButton">Mod</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">A</button></td>
+		                    <td><button class="mButton">MC</button></td>
+		                    <td><button class="mButton">MR</button></td>
+		                    <td><button class="mButton">MS</button></td>
+		                    <td><button class="mButton">M+</button></td>
+		                    <td><button class="mButton">M-</button></td>
+		                </tr>
+		                <tr>
+		                    <td><button class="generalButton">(</button></td>
+		                    <td><button class="generalButton">)</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">B</button></td>
+		                    <td><button class="boldedSign">&larr;</button></td>
+		                    <td><button class="generalButton">CE</button></td>
+		                    <td><button class="generalButton">C</button></td>
+		                    <td><button class="generalButton">&#177;</button></td>
+		                    <td><button class="hexButton" disabled="disabled">&radic;</button></td>
+		                </tr>
+		                <tr>
+		                    <td><button class="generalButton">RoL</button></td>
+		                    <td><button class="generalButton">RoR</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">C</button></td>
+		                    <td><button class="numericButton numericFont">7</button></td>
+		                    <td><button class="numericButton numericFont">8</button></td>
+		                    <td><button class="numericButton numericFont">9</button></td>
+		                    <td><button class="generalButton">/</button></td>
+		                    <td><button class="hexButton" disabled="disabled">%</button></td>
+		                </tr>
+		                <tr>
+		                    <td><button class="generalButton">Or</button></td>
+		                    <td><button class="generalButton">Xor</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">D</button></td>
+		                    <td><button class="numericButton numericFont">4</button></td>
+		                    <td><button class="numericButton numericFont">5</button></td>
+		                    <td><button class="numericButton numericFont">6</button></td>
+		                    <td><button class="generalButton">*</button></td>
+		                    <td><button class="hexButton" disabled="disabled">1/x</button></td>
+		                </tr>
+		                <tr>
+		                    <td><button class="generalButton">Lsh</button></td>
+		                    <td><button class="generalButton">Rsh</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">E</button></td>
+		                    <td><button class="numericButton numericFont">1</button></td>
+		                    <td><button class="numericButton numericFont">2</button></td>
+		                    <td><button class="numericButton numericFont">3</button></td>
+		                    <td><button class="generalButton">-</button></td>
+		                    <td rowspan="2"><button class="boldedSign">=</button></td>
+		                </tr>
+		                <tr>
+		                    <td><button class="generalButton">Not</button></td>
+		                    <td><button class="generalButton">And</button></td>
+		                    <td><button class="hexButton numericFont" disabled="disabled">F</button></td>
+		                    <td colspan="2"><button class="numericButton numericFont">0</button></td>
+		                    <td><button class="hexButton" disabled="disabled">.</button></td>
+		                    <td><button class="generalButton">+</button></td>
+		                </tr>
 					</table>
 				</section>
 				</main>
