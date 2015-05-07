@@ -2,45 +2,45 @@ body > div {
     border: 2px solid black;
     background-color: #f1f1f1;
   width: 947px;
-    height: 710px;
+    height: 720px;
     padding: 3px;
 }
 
 
 
-div[id=nav] img {
+nav img {
     float: left;
 }
 
-div[id=nav] {
+nav {
     float: left;
     width: 170px;
     color: #790000;
     font-weight: bold;
 }
 
-    div[id=nav] ul {
+    nav ul {
         padding-left: 0;
     }
 
-        div[id=nav] ul li {
+        nav ul li {
             list-style-type: none;
             line-height: 16px;
         }
 
-            div[id=nav] ul li a, div[id=nav] p {
+            nav ul li a, nav p {
                 color: black;
                 font-weight: normal;
                 list-style-type: none;
                 text-decoration: none;
             }
 
-        div[id=nav] ul:last-of-type {
+        nav ul:last-of-type {
             margin-bottom: 0;
         }
 
 
-div[id=section] {
+main {
     font-size: 17px;
     border: 3px solid #9d9d9d;
     background-color: white;
@@ -51,7 +51,7 @@ div[id=section] {
     width: 580px;
 }
 
-    div[id=section] p {
+    main p {
         margin-bottom: 8px;
         margin-top: 8px;
         line-height: 17px;
@@ -61,7 +61,7 @@ h1 {
     font-size: 25px;
 }
 
-div[id=section] img {
+main img {
     float: left;
     margin-right: 15px;
     width: 120px;
@@ -84,21 +84,21 @@ h2 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
 }
 
-div[id=section] article {
+main article {
     padding-bottom: 10px;
 }
 
-    div[id=section] article:first-of-type a {
+    main article:first-of-type a {
         display: inline-block;
         color: #961c1b;
         margin-bottom: 20px;
     }
 
-    div[id=section] article:first-of-type p {
+    main article:first-of-type p {
         font-weight: bold;
     }
 
-div[id=section] a {
+main a {
     color: #961c1b;
 }
 
@@ -152,14 +152,14 @@ button[class=before] {
     padding-right: 28px;
 }
 
-div[id=aside] {
+aside {
     background-color: white;
     padding-left: 2px;
     float: left;
     width: 175px;
 }
 
-    div[id=aside] div {
+    aside div {
         border: 3px solid #9d9d9d;
         margin-bottom: 1px;
         padding-bottom: 4px;
@@ -168,17 +168,17 @@ div[id=aside] {
         padding-top: 4px;
     }
 
-        div[id=aside] div:nth-of-type(1), div[id=aside] div:nth-of-type(3) {
+        aside div:nth-of-type(1), div[id=aside] div:nth-of-type(3) {
             padding-top: 0;
         }
 
-        div[id=aside] div a {
+        aside div a {
             color: #ab4646;
             display: block;
         }
 
 
-    div[id=aside] p {
+    aside p {
         font-weight: bold;
         color: white;
         text-align: center;
@@ -192,7 +192,4 @@ input[type=text] {
     float: left;
     margin-left: 15px;
     border-color: #93acc4;
-}
-
-div[id=aside] button {
 }
