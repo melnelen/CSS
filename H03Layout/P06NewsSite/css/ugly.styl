@@ -1,0 +1,58 @@
+html
+body
+div
+ul
+	margin 0
+	padding 0
+	
+#wrapper
+	background-color #1E3741
+	font-family 'Arial'
+	width 750px
+	height 350px
+	border-radius 3px
+
+header
+	nav
+		padding 5px
+		ul
+			list-style-type none
+			li
+				background-color #4B5F67
+				padding 5px 10px
+				display inline
+				a
+					text-decoration none
+					color #93ACA9
+					&:hover
+						text-decoration underline
+			li#activeNav
+				background none
+				a
+					color #ffffff
+
+section
+	margin 10px
+	ul
+		list-style-type none
+		color #A5AFB3
+		width 300px
+		float left
+		li
+			margin 5px
+			padding 5px
+			border-radius 3px
+			&:hover
+				cursor pointer
+				background-color #465F69
+			&:not(:first-child)
+				border 0 solid #3A4F58
+				border-width 1px 0 0 0
+				padding 5px
+		li#activeNews
+			background-color #00968C
+			color #ffffff
+	iframe
+		margin-top 10px
+		float left
+		
