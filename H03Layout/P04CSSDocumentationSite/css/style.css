@@ -74,14 +74,7 @@ h2 {
     line-height: 20px;
     font-size: 18px;
     color: white;
-    background: rgb(181,189,200); /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(181,189,200,1)), color-stop(36%,rgba(130,140,149,1)), color-stop(100%,rgba(40,52,59,1))); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* IE10+ */
-    background: linear-gradient(to right, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
+    background-color: #888;
 }
 
 main article {
@@ -168,7 +161,7 @@ aside {
         padding-top: 4px;
     }
 
-        aside div:nth-of-type(1), div[id=aside] div:nth-of-type(3) {
+        aside div:nth-of-type(1), aside div:nth-of-type(3) {
             padding-top: 0;
         }
 
@@ -183,7 +176,7 @@ aside {
         color: white;
         text-align: center;
         margin: 0;
-        background: #808080;
+        background: #888;
         margin-bottom: 5px;
     }
 
